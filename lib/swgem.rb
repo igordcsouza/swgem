@@ -5,14 +5,18 @@ class SWGEM
   end
 
   def self.api_status
-    V1.new.validate_api_status
+    Films.new.validate_api_status
   end
 
-  def self.films
-    V1.new.films
+  def self.films(options = {})
+    Films.new.all(options)
+  end
+
+  def self.films_by_id(id)
+    Films.new.by_id(id)
   end
 
 end
 
 require 'swgem/translator'
-require 'swgem/v1'
+require 'swgem/films'

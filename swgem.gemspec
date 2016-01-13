@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.description = "This is a wrapper from http://swapi.co"
   s.authors     = ["Igor Souza"]
   s.email       = 'igordcsouza@gmail.com'
-  s.files       = ["lib/swgem.rb", "lib/swgem/translator.rb", "lib/swgem/v1.rb"]
+  s.files       = ["lib/swgem.rb", "lib/swgem/translator.rb", "lib/swgem/films.rb"]
   s.homepage    =
     'http://rubygems.org/gems/swgem'
   s.license       = 'MIT'
-  s.add_development_dependency 'faraday', '~> 0.9.2'
-  s.add_development_dependency 'json', '~> 1.8.3'
+  s.add_development_dependency 'faraday', '~> 0.9'
+  s.add_development_dependency 'json', '~> 1.8'
 end

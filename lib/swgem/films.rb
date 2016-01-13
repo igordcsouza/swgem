@@ -1,8 +1,9 @@
 require 'faraday'
 require 'json'
+require 'pry'
 
-class SWGEM::V1
-  BASE_URL = 'http://swapi.co/api/'
+class SWGEM::Films
+  BASE_URL = 'http://swapi.co/api/films/'
 
   def initialize
     @conn = Faraday.new(:url => BASE_URL) do |faraday|
@@ -15,8 +16,12 @@ class SWGEM::V1
     @conn.get.status
   end
 
-  def films(options = {})
-    JSON.parse((@conn.get "films/#{options[:id]}", { page: (options[:page] || 1) }).body)
+  def all(options = {})
+    JSON.parse((@conn.get).body)
+  end
+
+  def by_id(id)
+    JSON.parse((@conn.get "#{id}/").body)
   end
 
 end
