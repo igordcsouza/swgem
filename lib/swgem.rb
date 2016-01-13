@@ -18,5 +18,4 @@ class SWGEM
 
 end
 
-require 'swgem/translator'
 require 'swgem/films'
