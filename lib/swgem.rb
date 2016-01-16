@@ -1,4 +1,6 @@
-class SWGEM
+require "swgem/films"
+module SWGEM
+ class SWGEM
   def self.hi(language = "english")
     translator = Translator.new(language)
     translator.hi
@@ -16,6 +18,5 @@ class SWGEM
     Films.new.by_id(id)
   end
 
+ end
 end
-
-require 'swgem/films'
