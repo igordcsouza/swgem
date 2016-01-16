@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   s.add_development_dependency 'faraday', '~> 0.9'
   s.add_development_dependency 'json', '~> 1.8'
+  s.add_development_dependency 'rspec', '~> 3.4'
 end

@@ -5,4 +5,4 @@ gemspec
 gem 'typhoeus'
 gem 'pry'
 gem 'json'
-gem 'oj'
+gem 'rspec'

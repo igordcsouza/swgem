@@ -17,7 +17,7 @@ class SWGEM::Films
   end
 
   def all(options = {})
-    JSON.parse((conn.get).body)
+    (JSON.parse((conn.get).body))["results"]
   end
 
   def by_id(id)
