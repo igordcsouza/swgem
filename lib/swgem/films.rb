@@ -13,15 +13,19 @@ class SWGEM::Films
   end
 
   def validate_api_status
-    @conn.get.status
+    conn.get.status
   end
 
   def all(options = {})
-    JSON.parse((@conn.get).body)
+    JSON.parse((conn.get).body)
   end
 
   def by_id(id)
-    JSON.parse((@conn.get "#{id}/").body)
+    JSON.parse((conn.get "#{id}/").body)
   end
+
+ private
+
+ attr_reader :conn
 
 end
