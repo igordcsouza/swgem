@@ -18,7 +18,7 @@ module SWGEM
      conn.get.status
    end
 
-   def all(options = {})
+   def all
      (JSON.parse((conn.get).body))["results"]
    end
 

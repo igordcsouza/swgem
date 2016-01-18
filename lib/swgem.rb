@@ -1,4 +1,6 @@
 require "swgem/films"
+require "swgem/people"
+
 module SWGEM
  class SWGEM
   def self.hi(language = "english")
