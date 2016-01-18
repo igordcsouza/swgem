@@ -1,1 +1,2 @@
 # SWGEM [![Coverage Status](https://coveralls.io/repos/igordcsouza/swgem/badge.svg?branch=coverall&service=github)] [![Build Status](https://travis-ci.org/igordcsouza/swgem.svg?branch=master)] [![Code Climate](https://codeclimate.com/github/igordcsouza/swgem/badges/gpa.svg)]
+[![Coverage Status](https://coveralls.io/repos/github/igordcsouza/swgem/badge.svg?branch=master)](https://coveralls.io/github/igordcsouza/swgem?branch=master)
