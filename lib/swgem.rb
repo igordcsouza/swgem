@@ -1,24 +1,37 @@
-require "swgem/films"
-require "swgem/people"
-
 module SWGEM
- class SWGEM
-  def self.hi(language = "english")
-    translator = Translator.new(language)
-    translator.hi
-  end
+ class Base
 
-  def self.api_status
-    Films.new.validate_api_status
-  end
+ BASE_URL = 'http://swapi.co/api/'
 
-  def self.films(options = {})
-    Films.new.all(options)
+ def initialize
+  @conn = Faraday.new(:url => BASE_URL) do |faraday|
+   faraday.request :url_encoded
+   faraday.adapter Faraday.default_adapter
   end
+ end
 
-  def self.films_by_id(id)
-    Films.new.by_id(id)
-  end
+ def all
+   (JSON.parse((conn.get "#{class_name}/").body))["results"]
+ end
+
+ def by_id(id)
+  JSON.parse((conn.get "#{class_name}/#{id}/").body)
+ end
+
+ def class_name
+  self.class.name.split("::")[1].downcase
+ end
+
+ def validate_api_status
+  (conn.get "#{class_name}/").status
+ end
+
+ private
+
+ attr_reader :conn
 
  end
 end
+
+require "swgem/people"
+require "swgem/films"
