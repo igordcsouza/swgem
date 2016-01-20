@@ -35,3 +35,4 @@ end
 
 require "swgem/people"
 require "swgem/films"
+require "swgem/planets"
