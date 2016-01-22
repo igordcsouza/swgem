@@ -1,3 +1,6 @@
+require 'faraday'
+require 'json'
+
 module SWGEM
  class Base
 
@@ -36,3 +39,6 @@ end
 require "swgem/people"
 require "swgem/films"
 require "swgem/planets"
+require "swgem/starships"
+require "swgem/vehicles"
+require "swgem/species"

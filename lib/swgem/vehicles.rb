@@ -1,5 +1,5 @@
 module SWGEM
- class People < Base
+ class Vehicles < Base
 
  end
 end

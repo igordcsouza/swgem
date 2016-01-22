@@ -1,5 +1,4 @@
 module SWGEM
- class People < Base
-
+ class Species < Base
  end
 end
