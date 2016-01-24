@@ -21,9 +21,6 @@ module SWGEM
   JSON.parse((conn.get "#{class_name}/#{id}/").body)
  end
 
- def class_name
-  self.class.name.split("::")[1].downcase
- end
 
  def validate_api_status
   (conn.get "#{class_name}/").status
@@ -31,6 +28,9 @@ module SWGEM
 
  private
 
+ def class_name
+  self.class.name.split("::")[1].downcase
+ end
  attr_reader :conn
 
  end
