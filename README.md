@@ -45,6 +45,8 @@
 
 ### Run Tests
 ```sh
+ git clone https://github.com/igordcsouza/swgem.git
+ cd swgem/
  bundle install
  rspec
 ```
