@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = 'igordcsouza@gmail.com'
   s.files       = ["lib/swgem.rb", "lib/swgem/films.rb","lib/swgem/people.rb","lib/swgem/planets.rb","lib/swgem/starships.rb","lib/swgem/vehicles.rb","lib/swgem/species.rb" ]
   s.homepage    =
-    'http://rubygems.org/gems/swgem'
+    'http://github.com/igordcsouza/swgem'
   s.license       = 'MIT'
   s.add_development_dependency 'faraday', '~> 0.9'
   s.add_development_dependency 'json', '~> 1.8'
