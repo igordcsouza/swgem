@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'swgem'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = DateTime.now.strftime('%Y-%m-%d')
   s.summary     = "I like, Star Wars I,II,III!"
   s.description = "This is a wrapper from http://swapi.co"

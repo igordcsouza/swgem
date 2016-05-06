@@ -22,12 +22,19 @@ describe SWGEM::Films do
       expect(films.by_id(1).empty?).to_not be(true)
    end
   
+  it 'return the film by your episode_id' do
+      films = SWGEM::Films.new
+      film = films.by_episode(4)
+      expect(film["episode_id"]).to be(4)
+  end
+
+
    it 'return null for a wrong id' do
       films = SWGEM::Films.new
       result = films.by_id(9999)
       expect(result["detail"]).to eq("Not found")
    end
-   
+
   end
 
 end
