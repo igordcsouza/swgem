@@ -8,6 +8,7 @@
 ```sh
  films = SWGEM::Films.all
  films = SWGEM::Films.by_id(id)
+ films = SWGEM::Films.by_episode(episode_id)
  status = SWGEM::Films.validate_api_status
 ```
 ### People

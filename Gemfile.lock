@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    swgem (0.1.1)
+    swgem (0.1.2)
 
 GEM
   remote: https://rubygems.org/
