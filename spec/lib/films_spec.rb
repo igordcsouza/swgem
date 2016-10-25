@@ -13,7 +13,7 @@ describe SWGEM::Films do
     it '.films return all films' do
        films = SWGEM::Films.new
        films.all.each do |film|
-	expect(film.empty?).to_not be(true)
+         expect(film.empty?).to_not be(true)
        end
     end
     
@@ -35,6 +35,17 @@ describe SWGEM::Films do
       expect(result["detail"]).to eq("Not found")
    end
 
+  end
+
+  describe "Films.search()" do
+    it 'return all movies with the string pass as argument in the title' do
+      arg = ["the", "hope", "new", "Empire", "Back"]
+      films = SWGEM::Films.new
+      str = arg.sample
+      films.search(str).each do |film|
+        expect(film["title"].downcase.include?(str.downcase)).to be(true)
+      end
+    end
   end
 
 end
