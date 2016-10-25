@@ -29,4 +29,15 @@ describe SWGEM::Planets do
    
   end
 
+  describe "Planets.search()" do
+    it 'return all movies with the string pass as argument in the title' do
+      arg = ["Alderaan", "raan", "Rodia", "io", "asdasad"]
+      planets = SWGEM::Planets.new
+      str = arg.sample
+      planets.search(str).each do |planet|
+        expect(planet["name"].downcase.include?(str.downcase)).to be(true)
+      end
+    end
+  end
+
 end
