@@ -19,4 +19,14 @@ describe SWGEM::People do
   end
  end
 
+ describe "People.search()" do
+   it 'return all movies with the string pass as argument in the title' do
+     arg = ["r2", "d2", "yoda", "luke"]
+     people = SWGEM::People.new
+     str = arg.sample
+     people.search(str).each do |p|
+       expect(p["name"].downcase.include?(str.downcase)).to be(true)
+     end
+   end
+ end
 end
