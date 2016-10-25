@@ -30,4 +30,18 @@ describe SWGEM::Vehicles do
    
   end
 
+  describe "Vehicles.search()" do
+    it 'return all movies with the string pass as argument in the title' do
+      arg = ["Crawler", "asd", "Sand", "and" , "asdajdhjaskdn"]
+      vehicles = SWGEM::Vehicles.new
+      str = arg.sample
+      vehicles.search(str).each do |vehicle|
+        expect(
+            vehicle["name"].downcase.include?(str.downcase) ||
+            vehicle["model"].downcase.include?(str.downcase)
+        ).to be(true)
+      end
+    end
+  end
+
 end

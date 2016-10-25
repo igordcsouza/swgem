@@ -30,4 +30,15 @@ describe SWGEM::Starships do
    
   end
 
+  describe "Starship.search()" do
+    it 'return all movies with the string pass as argument in the title' do
+      arg = ["corvette", "landing", "Millennium", "falcon", "Executor" , "asdajdhjaskdn"]
+      starships = SWGEM::Starships.new
+      str = arg.sample
+      starships.search(str).each do |starship|
+        expect(starship["name"].downcase.include?(str.downcase)).to be(true)
+      end
+    end
+  end
+
 end

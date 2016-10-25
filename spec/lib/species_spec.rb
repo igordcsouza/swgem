@@ -30,4 +30,15 @@ describe SWGEM::Species do
    
   end
 
+  describe "Species.search()" do
+    it 'return all movies with the string pass as argument in the title' do
+      arg = ["Droid", "oi", "dr", "asdjkbhgjdhjak", "Tholot"]
+      species = SWGEM::Species.new
+      str = arg.sample
+      species.search(str).each do |specie|
+        expect(specie["name"].downcase.include?(str.downcase)).to be(true)
+      end
+    end
+  end
+
 end
