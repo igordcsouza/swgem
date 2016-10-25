@@ -31,6 +31,7 @@ module SWGEM
  def class_name
   self.class.name.split("::")[1].downcase
  end
+ 
  attr_reader :conn
 
  end
