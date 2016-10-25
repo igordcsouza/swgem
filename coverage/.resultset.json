@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/isouza/Documents/Developer/Github/swgem/lib/swgem.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/lib/swgem.rb": [
         1,
         1,
         null,
@@ -47,14 +47,14 @@
         1,
         1
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/lib/swgem/people.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/lib/swgem/people.rb": [
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/lib/swgem/films.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/lib/swgem/films.rb": [
         1,
         1,
         null,
@@ -65,33 +65,33 @@
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/lib/swgem/planets.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/lib/swgem/planets.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/lib/swgem/starships.rb": [
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/isouza/Documents/Developer/Github/swgem/lib/swgem/vehicles.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/lib/swgem/starships.rb": [
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/lib/swgem/species.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/lib/swgem/vehicles.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/igorsouza/Documents/Github/swgem/lib/swgem/species.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/spec/lib/people_spec.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/spec/lib/people_spec.rb": [
         1,
         1,
         null,
@@ -115,42 +115,7 @@
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/spec/lib/planets_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        10,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/isouza/Documents/Developer/Github/swgem/spec/lib/species_spec.rb": [
-        1,
+      "/Users/igorsouza/Documents/Github/swgem/spec/lib/planets_spec.rb": [
         1,
         null,
         1,
@@ -184,7 +149,7 @@
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/spec/lib/starships_spec.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/spec/lib/species_spec.rb": [
         1,
         1,
         null,
@@ -219,7 +184,42 @@
         null,
         null
       ],
-      "/Users/isouza/Documents/Developer/Github/swgem/spec/lib/vehicles_spec.rb": [
+      "/Users/igorsouza/Documents/Github/swgem/spec/lib/starships_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        10,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/igorsouza/Documents/Github/swgem/spec/lib/vehicles_spec.rb": [
         1,
         1,
         null,
@@ -255,6 +255,6 @@
         null
       ]
     },
-    "timestamp": 1466424382
+    "timestamp": 1477421659
   }
 }
