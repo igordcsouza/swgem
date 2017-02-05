@@ -1,0 +1,4 @@
+image: 'ruby:2.4.0-alpine'
+script:  
+  - bundle install
+  - bundle exec rspec
