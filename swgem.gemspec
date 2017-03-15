@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'swgem'
   s.version     = '1.0.0'
-  s.date        = DateTime.now.strftime('%Y-%m-%d')
+  s.date        = Time.now.strftime('%Y-%m-%d')
   s.summary     = "I like, Star Wars I,II,III!"
   s.description = "This is a wrapper from http://swapi.co"
   s.authors     = ["Igor Souza"]
@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'faraday', '~> 0.9'
   s.add_development_dependency 'json', '~> 2.0'
   s.add_development_dependency 'rspec', '~> 3.5'
+  s.add_development_dependency 'yard'
 end
