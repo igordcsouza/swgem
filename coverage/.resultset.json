@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/app/lib/swgem.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem.rb": [
         1,
         1,
         null,
@@ -17,7 +17,7 @@
         1,
         1
       ],
-      "/app/lib/swgem/base.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem/base.rb": [
         1,
         1,
         1,
@@ -55,14 +55,14 @@
         null,
         null
       ],
-      "/app/lib/swgem/people.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem/people.rb": [
         1,
         1,
         null,
         null,
         null
       ],
-      "/app/lib/swgem/films.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem/films.rb": [
         1,
         1,
         null,
@@ -73,33 +73,33 @@
         null,
         null
       ],
-      "/app/lib/swgem/planets.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem/planets.rb": [
         1,
         1,
         null,
         null
       ],
-      "/app/lib/swgem/starships.rb": [
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/app/lib/swgem/vehicles.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem/starships.rb": [
         1,
         1,
         null,
         null,
         null
       ],
-      "/app/lib/swgem/species.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem/vehicles.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/lib/swgem/species.rb": [
         1,
         1,
         null,
         null
       ],
-      "/app/spec/lib/people_spec.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/spec/lib/people_spec.rb": [
         1,
         1,
         null,
@@ -133,53 +133,7 @@
         null,
         null
       ],
-      "/app/spec/lib/planets_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        10,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/app/spec/lib/species_spec.rb": [
-        1,
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/spec/lib/planets_spec.rb": [
         1,
         null,
         1,
@@ -217,14 +171,14 @@
         1,
         1,
         1,
-        1,
+        0,
         null,
         null,
         null,
         null,
         null
       ],
-      "/app/spec/lib/starships_spec.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/spec/lib/species_spec.rb": [
         1,
         1,
         null,
@@ -270,7 +224,53 @@
         null,
         null
       ],
-      "/app/spec/lib/vehicles_spec.rb": [
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/spec/lib/starships_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        10,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/igordcsouza/Projects/Personal/open-source-projects/swgem/spec/lib/vehicles_spec.rb": [
         1,
         1,
         null,
@@ -320,6 +320,6 @@
         null
       ]
     },
-    "timestamp": 1486461831
+    "timestamp": 1580782723
   }
 }
