@@ -2,7 +2,7 @@ require 'faraday'
 require 'json'
 
 module SWGEM
- BASE_URL = 'https://swapi.co/api/'
+ BASE_URL = 'https://swapi.dev/api/'
 end
 
 require "swgem/base"
