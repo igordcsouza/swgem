@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://github.com/igordcsouza/swgem'
   s.license       = 'MIT'
-  s.add_development_dependency 'faraday', '~> 1.0'
+  s.add_development_dependency 'faraday', '~> 2.5'
   s.add_development_dependency 'json', '~> 2.0'
   s.add_development_dependency 'rspec', '~> 3.5'
 end
